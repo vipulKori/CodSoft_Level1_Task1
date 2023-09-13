@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="LandingPage.css">
+    <link href="LandingPage.css" rel="stylesheet">
+    <title>Koenigsegg cars Landing page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Koenigsegg cars</h1>
+
+        <nav class="menu">
+            <ul class="menu-list">
+                <li>Home</li>
+                <li class="active">Megacars</li>
+                <li>Careers</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main">
+
+        <section class="left">
+            <p class="title">Agera</p>
+            <p class="msg">
+                Agera means “to take action” in Swedish, and is also an
+                abbreviation of Ageratos, ancient Greek for “ageless” – both
+                suitable descriptors for this incredible and beautiful
+                machine. The Agera features a unique 7-speed transmission
+                with an E-diff and wet clutch functionality developed
+                in-house at Koenigsegg, resulting in a system that truly
+                enhances performance and handling. It's also fitted with a
+                new interior, featuring the now-famous ‘ghost’ lighting
+                system characterized by interior symbols created with
+                laser-etched, virtually invisible nano-holes punctured
+                through the aluminum panels and buttons.</p>
+            <button class="cta">Learn More</button>
+        </section>
+
+        <section class="right">
+            <img src="https://www.wsupercars.com/wallpapers-regular/Koenigsegg/2011-Koenigsegg-Agera-008-1080.jpg"
+                alt="AgeraCar">
+        </section>
+
+    </section>
+    <section class="main">
+
+        <section class="left">
+            <p class="title">Regera</p>
+            <p class="msg">
+                The Regera was specifically designed to be a luxury
+                megacar alternative to Koenigsegg’s traditional extreme,
+                lightweight, race-like road-legal cars. It combines a
+                powerful twin-turbo V8 combustion engine with three
+                electric motors and cutting-edge battery power via new
+                powertrain technology called the Koenigsegg Direct Drive.
+
+                While traditional Koenigseggs have always had surprising
+                levels of practicality, creature comforts and features, our
+                primary focus has always been to make the fastest cars in
+                the world. The Regera continues this tradition, but with
+                innovative technology that blends outrageous speed,
+                supreme comfort, and a unique Direct Drive experience.</p>
+            <button class="cta">Learn More</button>
+        </section>
+
+        <section class="right">
+            <img src="https://www.wsupercars.com/wallpapers-regular/Koenigsegg/2016-Koenigsegg-Regera-007-1080.jpg"
+                alt="RegeraCar">
+        </section>
+    </section>
+
+    <section class="main">
+
+        <section class="left">
+            <p class="title">Jesko</p>
+            <p class="msg">
+                The Jesko model range is named after Jesko von
+                Koenigsegg, the father of company Founder and CEO,
+                Christian von Koenigsegg.
+
+                They feature a redesigned 5.0 litre twin-turbo V8 engine
+                producing 1280 hp on standard gasoline and 1600 hp on
+                E85 biofuel (in some markets) alongside the revolutionary
+                new 9-speed Koenigsegg Light Speed Transmission (LST)
+                system. Advanced aerodynamics offer over 1000 kg of
+                downforce, making it the ultimate track weapon.?</p>
+            <button class="cta">Learn More</button>
+        </section>
+
+        <section class="right">
+            <img src="https://www.wsupercars.com/wallpapers-regular/Koenigsegg/2020-Koenigsegg-Jesko-001-1080.jpg"
+                alt="jeskoCar">
+        </section>
+    </section>
+
+    <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('opened')
+        })
+
+    </script>
+
+</body>
+
+</html>
